@@ -235,7 +235,7 @@ public final class NewFile {
           }
           else {
             $line=144;
-            if (($opEqualY($opAbsolY(state),3)&&$opLesstY($getArrayValue(state,new Object[]{1}),$getArrayValue(state,new Object[]{2})))) {
+            if (($opEqualY($opAbsolY(state),3)&&$opLessqY($getArrayValue(state,new Object[]{1}),$getArrayValue(state,new Object[]{2})))) {
               $line=146;
               if ($opEqualY($getArrayValue(state,new Object[]{2}),6)) {
                 $line=148;

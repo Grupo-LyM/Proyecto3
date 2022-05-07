@@ -141,7 +141,7 @@ function h(state,input) begin
  		return c+input
  		
  		
- 	elseif |state| = 3 and state[1]<state[2]  then
+ 	elseif |state| = 3 and state[1]<=state[2]  then
  		
  		if  state[2]==6 then
  			
